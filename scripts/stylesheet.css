@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*!
+ * Css document
+ * http://www.mediakweker.nl/
+ *
+ * Copyright 2010, joran veenstra 
+ *
+ */
+.contact{margin:0 auto; width:25%; padding:10px; font-family:Arial, Helvetica, sans-serif; }
+	
+	.form{ width:250px; }
+	.form .hide{display:none;}
+	.form div{position:relative; display:block;}
+	.form .veld{width:100%; color:#333; padding:2px; margin-bottom:5px; border:1px solid #000000; font-size:13px;}
+	.form .veld_text{width:100%; padding:2px; border:#000 1px solid; height:120px; color:#333; font-family:Arial, Helvetica, sans-serif; font-size:13px; }
+		
+	.form .verzend{ text-align:center; text-decoration:none; line-height:28px; background:#000; display:block; margin:11px 0px 0 0; cursor:pointer; width:95px; font-size:13px; color:#FFF;}
+	.form .verzend:hover{ background:#090}
+	.bericht{padding:20px; margin:10px 0 0 0; color:#000000; background: #7bcd67;}
+		
+	.form .isgood{border:1px solid #7bcd67!important; color:#333!important;}
+	.form .active {border:1px solid #7bcd67!important; color:#333!important;}
+	.form .error {border:1px solid #ef6f66!important; color:#333!important;}
+	.form .error_feedback {color:#F00!important;}
+	
+	.form .required{width:22px; height:22px; background:url(../images/required.gif) no-repeat; font:1px; position:absolute; top:0px; right:-6px;}
+	.form .required_error{width:22px; height:22px; background:url(../images/error.gif) no-repeat; font:1px; position:absolute; top:0px; right:-6px;}
+	.form .required_ok{width:22px; height:22px; background:url(../images/valid.gif) no-repeat; font:1px; position:absolute; top:0px; right:-6px;}
+
+
+
+
+
+	
+		
+		
+
